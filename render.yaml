@@ -6,7 +6,11 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
     envVars:
-      - key: APP_PASSWORD
-        sync: false
-      - key: OPENAI_API_KEY
-        sync: false
+    - key: APP_PASSWORD
+      sync: false
+    - key: GROQ_API_KEY
+      sync: false
+    - key: AI_PROVIDER
+      value: groq
+    - key: GROQ_MODEL
+      value: llama-3.1-8b-instant
