@@ -10,11 +10,11 @@ from src.utils import load_yaml, app_password, password_gate, recommendation_fro
 from src.workbook_evaluator import evaluate_candidate_workbook
 
 try:
-    from src.dynamic_question_generator import generate_dynamic_questions, openai_available
+    from src.dynamic_question_generator import generate_dynamic_questions, ai_available
 except Exception:
     generate_dynamic_questions = None
 
-    def openai_available() -> bool:
+    def ai_available() -> bool:
         return False
 
 
