@@ -1,0 +1,382 @@
+dimensions:
+  - name: Problem structuring
+    weight: 20
+    description: Identifies the real business and IC design problem, frames the launch-to-growth transition, and clarifies tradeoffs.
+    positive_signals:
+      - label: launch-to-growth transition
+        terms:
+          - launch-to-growth transition
+          - launch acceleration to sustainable growth
+          - launch acceleration toward sustainable growth
+          - rapid launch adoption to sustained growth
+          - initial launch adoption to sustained adoption
+          - next phase of commercialization
+      - label: fairness and motivation tradeoff
+        terms:
+          - fairness vs motivation
+          - fairness and motivation
+          - balance fairness and motivation
+          - field motivation
+          - perceived fairness
+      - label: territory opportunity variation
+        terms:
+          - territory opportunity variation
+          - territory variation
+          - opportunity differences
+          - structural territory differences
+          - territory potential
+          - high opportunity territories
+          - lower opportunity territories
+      - label: structural inequity
+        terms:
+          - structural inequity
+          - structural advantage
+          - structurally advantaged
+          - goal equity
+          - goal fairness
+          - territory equity
+      - label: problem framing before solutioning
+        terms:
+          - problem framing
+          - diagnose before design
+          - not just payout mechanics
+          - broader than payout
+          - broader than goal setting
+      - label: separates symptoms from root causes
+        terms:
+          - root cause
+          - symptoms
+          - underlying drivers
+          - commercial drivers
+          - structural drivers
+    weak_signals:
+      - jumps directly to formulas
+      - treats issue as only payout mechanics
+      - no prioritization
+      - generic framework without case linkage
+
+  - name: IC design logic
+    weight: 25
+    description: Proposes a coherent IC structure with defensible goal-setting, metrics, weightings, pay curves, thresholds, accelerators, and caps.
+    positive_signals:
+      - label: national/regional/hybrid rationale
+        terms:
+          - national
+          - regional
+          - hybrid
+          - national vs regional
+          - regional vs hybrid
+          - national component
+          - territory-normalized
+      - label: goal-setting methodology
+        terms:
+          - goal-setting methodology
+          - goal setting methodology
+          - goal calibration
+          - goal allocation
+          - goal setting
+          - q6 goal
+          - territory goals
+      - label: pay curve
+        terms:
+          - pay curve
+          - payout curve
+          - payout mechanics
+          - payout schedule
+      - label: threshold
+        terms:
+          - threshold
+          - below threshold
+          - threshold attainment
+      - label: accelerator
+        terms:
+          - accelerator
+          - acceleration
+          - accelerators
+          - slope
+      - label: cap
+        terms:
+          - cap
+          - hard cap
+          - payout cap
+          - capped
+      - label: metric weighting
+        terms:
+          - metric weighting
+          - weighting
+          - weightage
+          - nbrx weight
+          - secondary metric
+      - label: payout variability
+        terms:
+          - payout variability
+          - payout dispersion
+          - payout concentration
+          - payout predictability
+      - label: attainment distribution
+        terms:
+          - attainment distribution
+          - attainment spread
+          - attainment curve
+          - territories below threshold
+      - label: territory normalization
+        terms:
+          - territory normalization
+          - normalize
+          - normalized goals
+          - opportunity normalization
+    weak_signals:
+      - says hybrid is best practice without rationale
+      - no clear metric logic
+      - ignores payout curve mechanics
+      - no treatment of overpayment or under-motivation risk
+
+  - name: Commercial understanding
+    weight: 20
+    description: Demonstrates understanding of rare oncology commercialization and how it should influence IC design.
+    positive_signals:
+      - label: rare oncology
+        terms:
+          - rare oncology
+          - rare hematologic oncology
+          - orphan
+          - specialty oncology
+      - label: specialty sales
+        terms:
+          - specialty sales
+          - specialty sales force
+          - expert-driven field force
+          - oncology accounts
+      - label: HCP concentration
+        terms:
+          - hcp concentration
+          - concentrated prescriber
+          - limited prescriber universe
+          - hcp opportunity
+          - high-value hcp
+      - label: academic center concentration
+        terms:
+          - academic center
+          - academic centers
+          - academic medical center
+          - referral network
+      - label: market access
+        terms:
+          - market access
+          - payer
+          - prior authorization
+          - pa approval
+          - approval rate
+      - label: pull-through
+        terms:
+          - pull-through
+          - pull through
+          - access pull-through
+          - patient pull-through
+      - label: patient journey
+        terms:
+          - patient journey
+          - time-to-therapy
+          - patient progression
+          - diagnosis
+      - label: persistence
+        terms:
+          - persistence
+          - trx
+          - sustained therapy
+          - continuation
+          - refill
+      - label: sustained adoption
+        terms:
+          - sustained adoption
+          - long-term adoption
+          - adoption quality
+          - sustainable growth
+      - label: new prescriber activation
+        terms:
+          - new prescriber
+          - new writer
+          - new hcp activation
+          - net-new hcp
+    weak_signals:
+      - applies broad-market logic without adaptation
+      - ignores access friction
+      - treats NBRx as the only meaningful metric
+      - no discussion of patient or prescriber concentration
+
+  - name: Operationalization
+    weight: 15
+    description: Explains how the IC design would actually be implemented, governed, communicated, monitored, and adjusted.
+    positive_signals:
+      - label: governance
+        terms:
+          - governance
+          - governance process
+          - steering committee
+          - review committee
+      - label: reporting cadence
+        terms:
+          - reporting cadence
+          - cadence
+          - monthly review
+          - quarterly review
+      - label: payout administration
+        terms:
+          - payout administration
+          - payout calculation
+          - payout processing
+          - payout cycle
+      - label: dispute process
+        terms:
+          - dispute
+          - dispute process
+          - appeal
+          - exception request
+      - label: field communication
+        terms:
+          - field communication
+          - communicate to the field
+          - explain to the field
+          - field training
+      - label: data dependencies
+        terms:
+          - data dependencies
+          - data availability
+          - data quality
+          - data lag
+          - source data
+      - label: exception handling
+        terms:
+          - exception handling
+          - exceptions
+          - vacancy adjustment
+          - territory disruption
+      - label: monitoring framework
+        terms:
+          - monitoring framework
+          - ongoing monitoring
+          - monitor
+          - performance monitoring
+      - label: change management
+        terms:
+          - change management
+          - adoption plan
+          - rollout
+          - implementation
+    weak_signals:
+      - elegant design with no implementation path
+      - ignores data availability
+      - no communication plan
+      - no governance or monitoring
+
+  - name: Adaptability and Q6 reflection
+    weight: 10
+    description: Uses Q6 outcomes to evaluate assumptions, refine recommendations, and identify additional data needs.
+    positive_signals:
+      - label: health check
+        terms:
+          - health check
+          - commercial health
+          - overall health
+      - label: attainment review
+        terms:
+          - attainment review
+          - attainment distribution
+          - q6 attainment
+          - attainment pattern
+      - label: recalibration
+        terms:
+          - recalibration
+          - recalibrate
+          - refine goals
+          - adjust goals
+      - label: unintended consequences
+        terms:
+          - unintended consequences
+          - unintended incentives
+          - behavioral distortion
+          - gaming
+      - label: additional data
+        terms:
+          - additional data
+          - more data
+          - data would help
+          - data requirements
+      - label: refine assumptions
+        terms:
+          - refine assumptions
+          - challenge assumptions
+          - pressure-test assumptions
+          - test assumptions
+      - label: monitoring
+        terms:
+          - monitoring
+          - monitor
+          - tracking
+      - label: over-stretch
+        terms:
+          - over-stretch
+          - overstretch
+          - too aggressive
+          - over goaled
+      - label: under-stretch
+        terms:
+          - under-stretch
+          - understretch
+          - under goaled
+          - too easy
+    weak_signals:
+      - defends original design without reflection
+      - throws away entire design without diagnosis
+      - ignores actual outcomes
+      - no incremental refinement
+
+  - name: Executive communication
+    weight: 10
+    description: Communicates in an executive-ready, structured, concise, and tradeoff-oriented manner.
+    positive_signals:
+      - label: executive summary
+        terms:
+          - executive summary
+          - executive recommendation
+          - leadership recommendation
+      - label: recommendation
+        terms:
+          - recommendation
+          - recommend
+          - proposed approach
+      - label: tradeoff
+        terms:
+          - tradeoff
+          - trade-off
+          - balance
+          - tension
+      - label: rationale
+        terms:
+          - rationale
+          - because
+          - why
+      - label: risk
+        terms:
+          - risk
+          - risks
+          - mitigation
+      - label: next steps
+        terms:
+          - next steps
+          - moving forward
+          - action plan
+      - label: assumption
+        terms:
+          - assumption
+          - assumptions
+      - label: concise
+        terms:
+          - concise
+          - clear
+          - one-line
+    weak_signals:
+      - laundry list of observations
+      - unclear recommendation
+      - excessive jargon
+      - weak synthesis
