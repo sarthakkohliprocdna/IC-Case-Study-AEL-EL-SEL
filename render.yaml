@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ic-case-evaluator
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
+    envVars:
+      - key: APP_PASSWORD
+        sync: false

@@ -1,0 +1,11 @@
+The current IC structure was effective during launch because it was simple, NBRx-driven, and created urgency. However, ONC-214 is now moving from launch acceleration to sustainable growth. The plan should evolve to address territory opportunity variation, sustained adoption, access pull-through, and payout predictability.
+
+I recommend a hybrid goal-setting approach. A national component should preserve enterprise alignment and collaboration, while a territory-normalized component should reflect structural differences in HCP opportunity, academic center concentration, and patient density. I would avoid a purely national goal structure because attainment appears too influenced by territory opportunity.
+
+The core metric should remain NBRx, but I would reduce its dominance and add a secondary metric related to new prescriber activation or access pull-through where attribution is feasible. I would introduce a cap to manage payout volatility and use accelerators more selectively above 110% attainment.
+
+The pay curve should include a threshold around 80%, target payout at 100%, moderate acceleration between 100% and 120%, and a softer slope above 120% to avoid excessive payout concentration.
+
+Operationally, I would create a goal review governance process involving sales leadership, finance, commercial analytics, and market access. The field communication should clearly explain why opportunity normalization is being introduced and how fairness is being balanced with differentiation.
+
+After Q6, I would review attainment distribution, payout concentration, access trends, and whether lower-opportunity territories remain structurally below threshold. If overperformance remains concentrated, I would revisit goal calibration and accelerator steepness. Additional data that would help includes account-level opportunity, payer mix, referral networks, and territory disruption history.

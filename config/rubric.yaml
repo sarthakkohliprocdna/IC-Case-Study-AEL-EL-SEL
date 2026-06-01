@@ -1,0 +1,112 @@
+dimensions:
+  - name: Problem structuring
+    weight: 20
+    description: Identifies the real business and IC design problem, frames the launch-to-growth transition, and clarifies tradeoffs.
+    positive_signals:
+      - launch-to-growth transition
+      - fairness vs motivation tradeoff
+      - territory opportunity variation
+      - structural inequity
+      - problem framing before solutioning
+      - separates symptoms from root causes
+    weak_signals:
+      - jumps directly to formulas
+      - treats issue as only payout mechanics
+      - no prioritization
+      - generic framework without case linkage
+
+  - name: IC design logic
+    weight: 25
+    description: Proposes a coherent IC structure with defensible goal-setting, metrics, weightings, pay curves, thresholds, accelerators, and caps.
+    positive_signals:
+      - national vs regional vs hybrid rationale
+      - goal-setting methodology
+      - pay curve
+      - threshold
+      - accelerator
+      - cap
+      - metric weighting
+      - payout variability
+      - attainment distribution
+      - territory normalization
+    weak_signals:
+      - says hybrid is best practice without rationale
+      - no clear metric logic
+      - ignores payout curve mechanics
+      - no treatment of overpayment or under-motivation risk
+
+  - name: Commercial understanding
+    weight: 20
+    description: Demonstrates understanding of rare oncology commercialization and how it should influence IC design.
+    positive_signals:
+      - rare oncology
+      - specialty sales
+      - HCP concentration
+      - academic center concentration
+      - market access
+      - pull-through
+      - patient journey
+      - persistence
+      - sustained adoption
+      - new prescriber activation
+    weak_signals:
+      - applies broad-market logic without adaptation
+      - ignores access friction
+      - treats NBRx as the only meaningful metric
+      - no discussion of patient or prescriber concentration
+
+  - name: Operationalization
+    weight: 15
+    description: Explains how the IC design would actually be implemented, governed, communicated, monitored, and adjusted.
+    positive_signals:
+      - governance
+      - reporting cadence
+      - payout administration
+      - dispute process
+      - field communication
+      - data dependencies
+      - exception handling
+      - monitoring framework
+      - change management
+    weak_signals:
+      - elegant design with no implementation path
+      - ignores data availability
+      - no communication plan
+      - no governance or monitoring
+
+  - name: Adaptability and Q6 reflection
+    weight: 10
+    description: Uses Q6 outcomes to evaluate assumptions, refine recommendations, and identify additional data needs.
+    positive_signals:
+      - health check
+      - attainment review
+      - recalibration
+      - unintended consequences
+      - additional data
+      - refine assumptions
+      - monitoring
+      - over-stretch
+      - under-stretch
+    weak_signals:
+      - defends original design without reflection
+      - throws away entire design without diagnosis
+      - ignores actual outcomes
+      - no incremental refinement
+
+  - name: Executive communication
+    weight: 10
+    description: Communicates in an executive-ready, structured, concise, and tradeoff-oriented manner.
+    positive_signals:
+      - executive summary
+      - recommendation
+      - tradeoff
+      - rationale
+      - risk
+      - next steps
+      - assumption
+      - concise
+    weak_signals:
+      - laundry list of observations
+      - unclear recommendation
+      - excessive jargon
+      - weak synthesis

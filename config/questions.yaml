@@ -1,0 +1,70 @@
+question_bank:
+  Problem structuring:
+    - "You framed this as a goal-setting issue. What evidence suggests the issue is broader than goal-setting alone?"
+    - "Which problem is most urgent: fairness, motivation, payout predictability, or commercial alignment? Why?"
+    - "What assumptions are you making about the launch-to-growth transition?"
+
+  IC design logic:
+    - "Why did you choose this national/regional/hybrid goal structure?"
+    - "How would your pay curve behave for territories at 80%, 100%, 120%, and 150% attainment?"
+    - "How would you prevent the design from over-rewarding structurally advantaged territories?"
+    - "What is the risk of using too many metrics in this IC plan?"
+
+  Commercial understanding:
+    - "How does rare oncology change your IC design compared with a broad-market product?"
+    - "How should HCP concentration and academic center clustering influence goal setting?"
+    - "Would you include market access or pull-through metrics? How would you handle attribution?"
+
+  Operationalization:
+    - "How would you explain this IC plan to the field in 15 minutes?"
+    - "What governance process would you set up before goals are finalized?"
+    - "What data dependencies or operational risks could break this plan?"
+    - "How would disputes or exception requests be handled?"
+
+  Adaptability and Q6 reflection:
+    - "Which Q6 outcome would most challenge your original recommendation?"
+    - "What would you recalibrate first after seeing Q6 attainment?"
+    - "What additional data would have improved your original goal-setting approach?"
+    - "How would you distinguish poor execution from poorly calibrated goals?"
+
+  Executive communication:
+    - "What is your one-line executive recommendation?"
+    - "What is the biggest tradeoff your recommendation creates?"
+    - "What would you ask leadership to decide today?"
+
+role_question_bank:
+  AEL:
+    focus: "Execution ownership, structured thinking, IC mechanics, data interpretation, and implementation support."
+    questions:
+      - "Walk us through your goal-setting methodology step by step. Where did you use the provided data, and where did you make assumptions?"
+      - "Which 2-3 data points most influenced your recommendation, and why?"
+      - "How would you explain your proposed pay curve to a field representative who believes the goals are unfair?"
+      - "What checks would you run before finalizing Q6 goals?"
+      - "Which territory segment is most at risk of being over- or under-incentivized under your design?"
+      - "What operational issue could arise during payout calculation, and how would you prevent it?"
+      - "After seeing Q6 actuals, what is one adjustment you would make immediately and one adjustment you would defer?"
+      - "What additional data would help you improve goal accuracy next quarter?"
+
+  EL:
+    focus: "Client leadership, design tradeoffs, stakeholder management, operationalization, and commercial alignment."
+    questions:
+      - "What is the core IC philosophy behind your recommendation, and how does it align to the brand's current commercial priorities?"
+      - "How would you align Sales, Finance, Brand, and Market Access stakeholders around your proposed design?"
+      - "What tradeoff are you most intentionally making: simplicity, fairness, motivation, or precision?"
+      - "How would you decide between national, regional, and hybrid goals in this case?"
+      - "Where could your design create unintended field behavior, and how would you monitor it?"
+      - "How would you handle pushback from high-performing regions that believe normalization penalizes them?"
+      - "After reviewing Q6 actuals, which assumption in your original design would you pressure-test first?"
+      - "What governance model would you put in place for goal review, exception handling, and payout monitoring?"
+
+  SEL:
+    focus: "Strategic account leadership, scalable IC architecture, executive influence, portfolio thinking, and long-term operating model design."
+    questions:
+      - "If you were advising the client executive team, what decision would you ask them to make first and why?"
+      - "How would you evolve the IC model over the next 2-3 planning cycles as the product matures?"
+      - "What parts of the IC design should be standardized enterprise-wide versus customized for ONC-214?"
+      - "How would you quantify whether the IC redesign is creating business value beyond payout redistribution?"
+      - "What risks would you highlight to the CFO, Head of Sales, and Brand Lead respectively?"
+      - "How would you build a scalable IC governance capability for this client beyond this single brand?"
+      - "What would change in your recommendation if leadership prioritized payout predictability over field motivation?"
+      - "How would your design philosophy change for a broad-market dermatology product with 20x market size?"
