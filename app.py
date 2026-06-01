@@ -38,12 +38,12 @@ with st.sidebar:
     use_dynamic_questions = st.checkbox(
         "Generate AI-assisted follow-up questions",
         value=False,
-        help="Requires OPENAI_API_KEY in Render environment variables. Scores remain rule-based.",
+        help="Requires GROQ_API_KEY or OPENAI_API_KEY in Render environment variables. Scores remain rule-based.",
     )
 
-    if use_dynamic_questions and not openai_available():
-        st.warning("OPENAI_API_KEY is not configured. The app will use rule-based questions only.")
-
+    if use_dynamic_questions and not ai_available():
+        st.warning("No AI provider key is configured. Add GROQ_API_KEY in Render, or the app will use rule-based questions only.")
+    
     st.markdown("---")
     st.write("Upload narrative response and workbook separately.")
     uploaded_narrative = st.file_uploader(
@@ -209,7 +209,7 @@ if evaluate:
             st.write(f"{idx}. {q}")
 
     st.markdown("## AI-assisted dynamic follow-up questions")
-    if use_dynamic_questions and openai_available() and generate_dynamic_questions:
+    if use_dynamic_questions and ai_available() and generate_dynamic_questions:
         try:
             dynamic_output = generate_dynamic_questions(
                 role_level=role_level,
