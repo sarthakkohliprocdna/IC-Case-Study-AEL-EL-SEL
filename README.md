@@ -98,4 +98,9 @@ If `Candidate_Pay_Curve` is present, the evaluator interpolates the candidate's 
 - Narrative scoring uses rubric signals and expanded synonym groups.
 - Workbook scoring compares candidate Q6 goals against the hidden Q6 reference file.
 - Candidate workbooks with missing or extra territories are rejected to avoid silent mismatches.
-- AI-assisted dynamic questions are optional and require `OPENAI_API_KEY`; AI does not change the score.
+- AI-assisted dynamic questions are optional and require
+- `GROQ_API_KEY
+- AI_PROVIDER=groq
+- GROQ_MODEL=llama-3.1-8b-instant`;
+- AI does not change the score.
+- The app supports Groq through the OpenAI-compatible API endpoint. Scores remain rule-based; Groq is only used to generate dynamic interviewer follow-up questions.
